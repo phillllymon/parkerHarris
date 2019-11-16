@@ -1,0 +1,21 @@
+.main_display {
+    height: 600px;
+    width: 800px;
+    background-color: lightblue;
+}
+
+.intro {
+    padding: 30px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: white;
+    box-shadow: 0 2px 12px -5px rgba(0, 0, 0, 1);
+}
+
+.intro_button {
+    font-size: 20px;
+}

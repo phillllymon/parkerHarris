@@ -1,0 +1,10 @@
+.header {
+    font-size: 30px;
+    font-family: sans-serif;
+    color: gray;
+    border-bottom: 2px solid gray;
+}
+
+.pic {
+    background-image: url("parker_head.png");
+}
