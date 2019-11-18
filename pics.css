@@ -1,0 +1,32 @@
+.pic {
+    background-image: url("parker_head.png");
+    width: 399px;
+    height: 455px;
+    background-size: cover;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.checkmatey_pic {
+    background-image: url("checkmatey1.png");
+    width: 500px;
+    height: 306px;
+    background-size: cover;
+}
+
+.zombie_pic {
+    background-image: url("dontDieTogether.png");
+    width: 500px;
+    height: 306px;
+    background-size: cover;
+    background-position: center;
+}
+
+.windWaves_pic {
+    background-image: url("windWaves.png");
+    width: 500px;
+    height: 306px;
+    border-radius: 3px;
+    background-size: cover;
+}
+
