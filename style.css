@@ -1,10 +1,44 @@
 .header {
+    font-size: 40px;
+    font-family: sans-serif;
+    color: gray;
+    padding: 10px;
+    border-bottom: 2px solid gray;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 130%;
+}
+
+.topic_heading {
     font-size: 30px;
     font-family: sans-serif;
     color: gray;
-    border-bottom: 2px solid gray;
+}
+
+.bio_top {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
 }
 
 .pic {
     background-image: url("parker_head.png");
+    
+    width: 399px;
+    height: 455px;
+    background-size: cover;
+    border: 1px solid gray;
+    border-radius: 3px;
 }
