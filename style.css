@@ -6,7 +6,7 @@
 }
 
 .large_text {
-    font-size: 40px;
+    font-size: 50px;
     font-family: sans-serif;
     color: gray;
 }
@@ -14,17 +14,24 @@
 .contact_info {
     display: flex;
     justify-content: center;
-    font-size: 20px;
-    line-height: 22px;
+    font-size: 22px;
+    line-height: 26px;
     color: gray;
     font-family: sans-serif;
 }
 
 .main {
-    display: flex;
-    flex-direction: row;
     font-family: sans-serif;
     font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 li {
@@ -40,10 +47,16 @@ h3 {
     font-size: 30px;
     font-family: sans-serif;
     color: gray;
+    width: 100%;
+    display: flex;
 }
 
 .description {
     padding: 10px;
+}
+
+.bio_description {
+    width: 80%;
 }
 
 .bio_top {
@@ -55,12 +68,13 @@ h3 {
 
 .projects_list {
     margin: 10px;
-    border-left: 1px solid lightgray;
+    width: 90%;
 }
 
 .project_name {
     text-decoration: underline;
     font-size: 30px;
+    color: black;
 }
 
 .sub_heading {
@@ -81,4 +95,14 @@ h3 {
 
 .project {
     overflow: hidden;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
 }

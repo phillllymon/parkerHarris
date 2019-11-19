@@ -5,22 +5,32 @@
         <link href="./pics.css" type="text/css" rel="stylesheet">
     </head>
     <div class="header">
-        <div class="large_text">
-        PARKER HARRIS
-        </div>
         <div class="contact_info">
-            <center>
             rparkerharris@gmail.com
             <br>
             802-760-7970
-            </center>
         </div>
-        <div>
-            links and shit
+        <div class="large_text">
+            PARKER HARRIS
+        </div>
+        <div class="row">
+            <a href="https://www.linkedin.com/in/parker-harris-04613b16/" target="_blank">
+                <div class="linkedIn_pic">
+                </div>
+            </a>
+            <a href="https://angel.co/parker-harris-2" target="_blank">
+                <div class="angelList_pic">
+                </div>
+            </a>
+            <a href="https://github.com/phillllymon" target="_blank">
+                <div class="github_pic">
+                </div>
+            </a>
         </div>
     </div>
     <div class="main">
-        <div>
+        <div class="bio">
+            
             <div class="bio_top">
                 <div class="pic">
                 </div>
@@ -31,37 +41,55 @@
                     <ul>
                         <li>Ruby / Rails</li>
                         <li>JavaScript</li>
-                        <li>React / Redux</li>
+                        <li>React</li>
+                        <li>Redux</li>
                         <li>SQL</li>
                         <li>HTML / CSS</li>
                         <li>PHP</li>
                     </ul>
                 </div>
             </div>
-            <div class="description">
+            <div class="bio_description">
                 Hi! I'm Parker. I'm a software developer with a background that
-                also includes teaching and mechanical engineering.
+                also includes mechanical engineering and teaching high school math and science.
+                I thrive on tackling hard problems. If it seems impossible at first, or if
+                others have tried and failed, I'm interested.
+                <br>
+                <br>
+                In October I graduated from the super-rigorous coding bootcamp App Academy,
+                where I learned Ruby, Rails, SQL, Javascript, and React. I had some mostly self-taught coding
+                abilities before that, but during App Academy I solidified my skills and completed
+                some awesome projects. 
+                <br>
+                <br>
+                My experience at App Academy was intense, but it left me confident and excited about transitioning my career into
+                full-time software development. Feel free to take a look at my projects below and let
+                me know what you think!
             </div>
+            
         </div>
-        <div class="projects_list">
-            <div class="topic_heading">
-                Projects:
-            </div>
+        
+            <div class="projects_list">
+                <div class="topic_heading">
+                    Projects:
+                </div>
                 <div class="border">
                 </div>
                 <div class="project">
                     <center>
-                        <div class="project_name">
-                            CheckMatey
-                            <br>
-                        </div>
-                        <div class="project_pic">
-                            <div class="checkMatey_pic">
+                        <a href="https://checkmatey.herokuapp.com/#/" target="_blank">
+                            <div class="project_name">
+                                CheckMatey
+                                <br>
                             </div>
-                            <div class="sub_heading">
-                                <i>online chess community</i>
+                            <div class="project_pic">
+                                <div class="checkMatey_pic">
+                                </div>
+                                <div class="sub_heading">
+                                    <i>online chess community</i>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </center>
                     <div class="description">
                         Who hasn't wished for a pirate-themed chess website? 
@@ -91,86 +119,76 @@
                 </div>
                 <div class="project">
                     <center>
-                        <div class="project_name">
-                            Wind & Waves
-                            <br>
-                        </div>
-                        <div class="project_pic">
-                            <div class="windWaves_pic">
+                        <a href="https://phillllymon.github.io/Wind-Waves/" target="_blank">
+                            <div class="project_name">
+                                Wind & Waves
+                                <br>
                             </div>
-                            <div class="sub_heading">
-                                <i>online chess community</i>
+                            <div class="project_pic">
+                                <div class="windWaves_pic">
+                                </div>
+                                <div class="sub_heading">
+                                    <i>sailing simulator</i>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </center>
                     <div class="description">
-                        Who hasn't wished for a pirate-themed chess website?
+                        Wind & Waves is an interactive sailing simulator that allows you to
+                        learn the basics of sailing a small boat while also investigating
+                        the various forces that make sailing possible.
                         <br>
                         <br>
-                        Inspired by
-                        chess.com, CheckMatey is a fully-functional online community
-                        for chess players with multi-player functionality as well as
-                        single-player games against the computer. There's also
-                        a community forum where you can share your chess or pirate-related
-                        thoughts with other players. You can even use the move-recording feature
-                        to share that new opening you just invented.
+                        Under the hood, Wind & Waves features a physics model
+                        that combines forces on the sail, hull, and centerboard to calculate
+                        accurate, real-time boat motion. It even calculates rolling 
+                        motion, incorporating a sailor whose weight moves
+                        automatically to balance the boat.
                         <br>
                         <br>
-                        If your
-                        opponent's not online when you want to play, just use the "invite a friend"
-                        feature to challenge your friend via email. If you're still
-                        online when your friend clicks the link, you'll automatically
-                        be put in a game together. Of course, if you prefer Tetris to chess,
-                        we've also got you covered.
-                        <br>
-                        <br>
-                        CheckMatey has a Ruby on Rails backend, with a React & Redux frontend.
+                        All the physics modeling is coded in pure javascript. The display
+                        in HTML5 Canvas.
                     </div>
                 </div>
                 <div class="border">
                 </div>
                 <div class="project">
                     <center>
-                        <div class="project_name">
-                            Don't Die Together
-                            <br>
-                        </div>
-                        <div class="project_pic">
-                            <div class="zombie_pic">
+                        <a href="http://dont-die-together.herokuapp.com/#/" target="_blank">
+                            <div class="project_name">
+                                Don't Die Together!
+                                <br>
                             </div>
-                            <div class="sub_heading">
-                                <i>zombie survival game</i>
+                            <div class="project_pic">
+                                <div class="zombie_pic">
+                                </div>
+                                <div class="sub_heading">
+                                    <i>zombie survival game</i>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </center>
                     <div class="description">
-                        Who hasn't wished for a pirate-themed chess website?
+                        Don't Die Together! is a top-down, multiplayer zombie survival game. You
+                        You start off with a pistol and, with zombies closing in from all sides, you
+                        must survive as long as possible. You can invite your friends to play in the
+                        same game with you, but be careful: the more players there are, the more zombies
+                        arrive!
                         <br>
                         <br>
-                        Inspired by
-                        chess.com, CheckMatey is a fully-functional online community
-                        for chess players featuring single-player games against the
-                        computer or multiplayer games against your friends. There's also
-                        a community forum where you can share your chess or pirate-related
-                        thoughts with other players. You can even use the move-recording feature
-                        to share that new opening you just invented.
+                        Don't Die Together! uses MongoDB on the back end and React on the front end. Multiplayer
+                        functionality is through Socket.IO. The game rendering uses HTML5 canvas.
                         <br>
                         <br>
-                        If your
-                        opponent's not online when you want to play, just use the "invite a friend"
-                        feature to challenge your friend via email. If you're still
-                        online when your friend clicks the link, you'll automatically
-                        be put in a game together. Of course, if you prefer Tetris to chess,
-                        we've also got you covered.
-                        <br>
-                        <br>
-                        CheckMatey has a Ruby on Rails backend, with a React & Redux frontend.
+                        Other collaborators on this poject are 
+                        <a href="https://www.linkedin.com/in/ryan-s-4bab01194">Ryan Sabik</a>, 
+                        <a href="https://www.linkedin.com/in/wesley-tam-436b98127/">Wesley Tam</a>, and
+                        <a href="https://www.linkedin.com/in/ryan-sullivan-32080223/">Ryan Sullivan</a>.
                     </div>
                 </div>
                 <div class="border">
-                </div>
-                
-            
+                </div>   
+               
         </div>
     </div>
 </html>

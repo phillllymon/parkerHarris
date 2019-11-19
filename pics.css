@@ -1,7 +1,8 @@
 .pic {
     background-image: url("parker_head.png");
     width: 399px;
-    height: 455px;
+    /* height: 455px; */
+    height: 350px;
     background-size: cover;
     border: 1px solid gray;
     border-radius: 3px;
@@ -12,7 +13,24 @@
     width: 500px;
     height: 306px;
     background-size: cover;
+    animation-name: pic-slideshow;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
 }
+
+@keyframes pic-slideshow {
+    0%      {background-image: url("checkmatey2.png");}
+    20%     {background-image: url("checkmatey2.png");}
+    25%     {background-image: url("checkmatey4.png");}
+    45%     {background-image: url("checkmatey4.png");}
+    50%     {background-image: url("checkmatey5.png");}
+    70%     {background-image: url("checkmatey5.png");}
+    75%     {background-image: url("checkmatey1.png");}
+    95%     {background-image: url("checkmatey1.png");}
+    100%    {background-image: url("checkmatey2.png");}
+}
+
+
 
 .zombie_pic {
     background-image: url("dontDieTogether.png");
@@ -28,5 +46,53 @@
     height: 306px;
     border-radius: 3px;
     background-size: cover;
+}
+
+.linkedIn_pic {
+    background-image: url("linkedinPic.png");
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-right: 20px;
+    opacity: 0.6;
+}
+
+.linkedIn_pic:hover {
+    opacity: 1;
+    cursor: pointer;
+    box-shadow: 0 2px 12px -5px rgba(0, 0, 0, 1);
+}
+
+.angelList_pic {
+    background-image: url("angellistPic.png");
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-right: 20px;
+    opacity: 0.6;
+}
+
+.angelList_pic:hover {
+    opacity: 1;
+    cursor: pointer;
+    box-shadow: 0 2px 12px -5px rgba(0, 0, 0, 1);
+}
+
+.github_pic {
+    background-image: url("githubPic.png");
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-right: 20px;
+    opacity: 0.6;
+}
+
+.github_pic:hover {
+    opacity: 1;
+    cursor: pointer;
+    box-shadow: 0 2px 12px -5px rgba(0, 0, 0, 1);
 }
 
