@@ -1,11 +1,12 @@
 .pic {
     background-image: url("parker_head.png");
+    position: relative;
     width: 399px;
-    /* height: 455px; */
     height: 350px;
     background-size: cover;
     border: 1px solid gray;
     border-radius: 3px;
+    overflow: hidden;
 }
 
 .checkmatey_pic {
