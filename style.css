@@ -43,12 +43,12 @@ h3 {
 }
 
 .topic_heading {
-    margin-left: 20px;
     font-size: 30px;
     font-family: sans-serif;
     color: gray;
     width: 100%;
     display: flex;
+    justify-content: center;
 }
 
 .description {
@@ -68,13 +68,16 @@ h3 {
 
 .projects_list {
     margin: 10px;
-    width: 90%;
+    width: 80%;
 }
 
 .project_name {
     text-decoration: underline;
     font-size: 30px;
     color: black;
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
 }
 
 .sub_heading {
